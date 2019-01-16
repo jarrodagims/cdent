@@ -63,7 +63,7 @@
             </div>
         </a>
         <span class="fade-down">We Work With<br />
-            All Insurance</span>
+            All Insurances</span>
     </li>
 
     <li class="flex-col">

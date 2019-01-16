@@ -61,9 +61,8 @@
                             ); ?>" /></a>
                     </div>
                     <div class="col contact-footer d-none d-md-block">
-                        <p>Please feel free to contact us. <span class="br-md">You can either call our toll-free</span>
-                            number or check below to
-                            see if <span class="br-md">there is an office close to your area.</span></p>
+                        <p>Please feel free to contact us. <span class="br-md">Call our toll-free number or check below
+                                to see if there is an office in your area.</span></p>
                     </div>
                     <div class="col phone-footer">
                         <div>
