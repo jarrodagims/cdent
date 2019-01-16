@@ -60,26 +60,22 @@
                                 'description'
                             ); ?>" /></a>
                     </div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="col col-lg-5 contact-footer d-none d-md-block">
-                                <span class="title">&nbsp;</span>
-                                <p>Please feel free to contact us. <span class="br-md">Call our toll-free number</span>
-                                    or check above to see if <span class="br-md">there is an office in your area.</span></p>
-                            </div>
-                            <div class="col col-lg-7 phone-footer">
-                                <div>
-                                    <span class="title">Contact</span>
-                                    <p><strong>Hail Repair:</strong> Call Carlos: <a href="tel:9032856438">(903)
-                                            285-6438</a><br />
-                                        <strong>Non-Hail Dent Repair:</strong> Call Derek: <a href="tel:9152564050">(915)
-                                            256-4050</a><br />
-                                        <strong>Authority Automotive:</strong> Call Rick Stumvoll: <a href="tel:214 7665127">(214)
-                                            766-5127</a><br />
-                                        <strong>Master Shine:</strong> Call Carlos Ropez: <a href="tel:4699510745">(469)
-                                            951-0745</a></p>
-                                </div>
-                            </div>
+                    <div class="col contact-footer d-none d-md-block">
+                        <p>Please feel free to contact us. <span class="br-md">Call our toll-free</span>
+                            number or check below to
+                            see if <span class="br-md">there is an office in your area.</span></p>
+                    </div>
+                    <div class="col phone-footer">
+                        <div>
+                            <span class="title">Contact</span>
+                            <p><strong>Hail Repair:</strong> Call Carlos: <a href="tel:9032856438">(903)
+                                    285-6438</a><br />
+                                <strong>Non-Hail Dent Repair:</strong> Call Derek: <a href="tel:9152564050">(915)
+                                    256-4050</a><br />
+                                <strong>Authority Automotive:</strong> Call Rick Stumvoll: <a href="tel:214 7665127">(214)
+                                    766-5127</a><br />
+                                <strong>Master Shine:</strong> Call Carlos Ropez: <a href="tel:4699510745">(469)
+                                    951-0745</a></p>
                         </div>
                     </div>
                 </div>

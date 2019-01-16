@@ -34,7 +34,7 @@
             endif;
             the_content();
             ?>
-<div class="banner banner-bottom">
+<!-- <div class="banner banner-bottom">
     <?php if (has_post_thumbnail( $post->ID ) ):
                 echo the_post_thumbnail(array(1060,209));
             else:
@@ -44,7 +44,7 @@
     <img src="<?= IMGURL ?>bg-banner-bottom.jpg" class="d-md-none d-xs-block" alt="<?php echo get_bloginfo( 'name' ); ?>" />
     <?php
             endif; ?>
-</div>
+</div> -->
 <?php
             if (get_field('page_bottom', $pageid)) { ?>
 <section class="page-bottom">

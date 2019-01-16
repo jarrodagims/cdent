@@ -3,7 +3,7 @@
 #footer {
   padding: 4.5em 0;
   text-align: center;
-  background: #fff;
+  background: #000;
   color: #fff;
 
   .container-fluid {
@@ -37,6 +37,10 @@
     align-items: center;
     text-align: left;
   }
+
+  strong {
+    font-weight: 600;
+  } 
 
   .phone-footer {
 
@@ -149,7 +153,12 @@
      }
   }
 
+ @include media-breakpoint-up(lg) {
+    
+ }
+
   @include media-breakpoint-up(md) {
+
 
    .footer-blocks {
        flex: 1;

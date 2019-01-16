@@ -4,11 +4,15 @@
   overflow: hidden;
 
   @include media-breakpoint-down(lg) {
-//     background: url("../img/bg-hero-mobile2.jpg") center 0 no-repeat;
-//     background-size: cover;
-
-   background: none;
+    background: none;
   }
+
+  @include media-breakpoint-down(xs) {
+    background: url("../img/bg-hero-mobile.jpg") center 50% no-repeat;
+    background-size: cover;
+  }
+
+  
  
   @include media-breakpoint-down(md) {
     &::before {
@@ -34,7 +38,7 @@
        position: absolute;
        right: 0;
        z-index: -1;
-       bottom: 50px;
+       bottom: -120px;
        display: block;
        height: 100%;
        width: 100%;
