@@ -38,17 +38,25 @@
        position: absolute;
        right: 0;
        z-index: -1;
-       bottom: -120px;
+       bottom: -100px;
        display: block;
        height: 100%;
        width: 100%;
      }
   }
 
-   
+  
+  @media screen and (max-width: 480px) {
+      &::after {
+        bottom: -180px;
+      } 
+  }
+
 
   @media screen and (max-width: 320px) {
     background-size: contain;
+
+    
   }
 }
 

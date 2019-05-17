@@ -35,8 +35,8 @@
             <div class="col">
                 <strong class="title">EL PASO</strong>
                 <p>
-                    <strong>By Appointment Only</strong> <a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>">(877)
-                        354-DENT</a>
+                    <strong>By Appointment Only</strong> <a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>">
+                        <?php printPhone(); ?></a>
                 </p>
             </div>
             <div class="col">
@@ -99,7 +99,7 @@ $sm->setColorType('singleColor');
             <div class="col d-lg-block d-none">
                 <?php echo non_responsive_bs_menu('footer', 'left', SITENAME); ?>
             </div>
-            <div class="col col-lg-2"><a href="<?= SITEURL ?>/contact-us/" class="link-button">
+            <div class="col col-lg-3"><a href="<?= SITEURL ?>/contact-us/" class="link-button">
                     <button class="btn btn-primary">
                         Contact us today
                     </button></a>

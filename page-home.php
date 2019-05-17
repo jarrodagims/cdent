@@ -39,8 +39,8 @@
         <div class="row">
             <div class="col text-center car-container">
                 <div>
-                    <h2>Did your car recently get<br />
-                        riddled with <strong>hail?</strong></h2>
+                    <h2>Did your car recently get<span class="br-xs">
+                            riddled with <strong>hail?</strong></span></h2>
                     <h3>Call us and we will work with<br />
                         your insurance to get it fixed right away.</h3>
                     <a href="<?=SITEURL?>/contact-us/" class="header-button link-button"><button class="btn btn-primary my-2 my-sm-0"
