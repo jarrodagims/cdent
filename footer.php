@@ -18,24 +18,25 @@
                 </p>
             </div>
             <div class="col">
-                <strong class="title">CELINA</strong>
+                <strong class="title">FRISCO</strong>
                 <p>
-                    6196 Private Road 902 Celina, TX 75009
+                    7740 Preston Rd, Frisco, TX 75034 (Car Wash)<br>
+					1927 Witt Rd, Frisco, TX 75036
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col">
 
-                <strong class="title">IRVING</strong>
+                <strong class="title">AUBREY</strong>
                 <p>
-                    9819 N MacArthur Blvd Irving, TX 75063
+                    26780 US HWY 380 E., Aubrey, TX 76227<br>(Car Wash)
                 </p>
             </div>
             <div class="col">
                 <strong class="title">EL PASO</strong>
                 <p>
-                    <strong>By Appointment Only</strong> <a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>">
+                    <strong>By Appointment Only</strong><br> <a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>">
                         <?php printPhone(); ?></a>
                 </p>
             </div>
@@ -64,20 +65,16 @@
                         <div class="row">
                             <div class="col col-lg-5 contact-footer d-none d-md-block">
                                 <span class="title">&nbsp;</span>
-                                <p>Please feel free to contact us. <span class="br-md">Call our toll-free number</span>
-                                    or check above to see if <span class="br-md">there is an office in your area.</span></p>
+                                <p>Please feel free to contact us. Call our number or check above to see if <span class="br-md">there is an office in your area.</span></p>
                             </div>
                             <div class="col col-lg-7 phone-footer">
                                 <div>
                                     <span class="title">Contact</span>
-                                    <p><strong>Hail Repair:</strong> Call Carlos: <a href="tel:9032856438">(903)
-                                            285-6438</a><br />
+                                    <p><strong>Hail Repair:</strong> Call Carlos: <a href="tel:9154791863">(915) 479-1863
+</a><br />
                                         <strong>Non-Hail Dent Repair:</strong> Call Derek: <a href="tel:9152564050">(915)
-                                            256-4050</a><br />
-                                        <strong>Authority Automotive:</strong> Call Rick Stumvoll: <a href="tel:214 7665127">(214)
-                                            766-5127</a><br />
-                                        <strong>Master Shine:</strong> Call Carlos Ropez: <a href="tel:4699510745">(469)
-                                            951-0745</a></p>
+                                            256-4050</a>
+                                   </p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +96,7 @@ $sm->setColorType('singleColor');
             <div class="col d-lg-block d-none">
                 <?php echo non_responsive_bs_menu('footer', 'left', SITENAME); ?>
             </div>
-            <div class="col col-lg-3"><a href="<?= SITEURL ?>/contact-us/" class="link-button">
+            <div class="col col-lg-2"><a href="<?= SITEURL ?>/contact-us/" class="link-button">
                     <button class="btn btn-primary">
                         Contact us today
                     </button></a>

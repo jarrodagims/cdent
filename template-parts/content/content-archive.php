@@ -25,7 +25,7 @@
 
 			endif;
 
-			echo "<article class='col-md-6 col-sm-12'>";
+			echo "<article class='col-lg-6 col-sm-12'>";
 			?>
 <?php
 			echo "<div class=\"blog-post\">";
